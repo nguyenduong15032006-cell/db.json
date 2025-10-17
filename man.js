@@ -43,7 +43,7 @@ const menDiv = document.getElementById('men');
 const womenDiv = document.getElementById('women');
 
 if (hotDiv) {
-  fetch('http://localhost:3000/products')
+  fetch('https://github.com/nguyenduong15032006-cell/kudoshinichi/blob/main/db.json')
     .then(response => response.json())
     .then(data => {
       console.log(data);
